@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Web Agency</a>
+
+    <input type="checkbox" id="check" />
+    <label for="check" class="icons">
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-x" id="close-icon"></i>
+    </label>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="signin.html" style="font-weight: 700" class="signin">Sign In</a>
+    </nav>
+  </header>
+
+  <div class="wrappersup">
+    <form action="">
+      <h1>Sign Up</h1>
+      <div class="iboxsup">
+        <div class="input-field">
+          <input type="text" placeholder="Full Name" required>
+          <i class='bx bx-user'></i>
+        </div>
+        <div class="input-field">
+          <input type="text" placeholder="Username" required>
+          <i class='bx bx-user'></i>
+        </div>
+      </div>
+      <div class="iboxsup">
+        <div class="input-field">
+          <input type="email" placeholder="Email" required>
+          <i class='bx bx-envelope'></i>
+        </div>
+        <div class="input-field">
+          <input type="number" placeholder="Phone Number" required>
+          <i class='bx bx-phone'></i>
+        </div>
+      </div>
+
+      <div class="iboxsup">
+        <div class="input-field">
+          <input type="password" placeholder="Password" required>
+          <i class='bx bx-lock'></i>
+        </div>
+        <div class="input-field">
+          <input type="password" placeholder="Confirm Password" required>
+          <i class='bx bx-lock'></i>
+        </div>
+      </div>
+      <div class="remember-forget">
+        <label> <input type="checkbox" /> Agree all Terms & Conditions </label>
+      </div>
+      <button type="submit" class="btn">Sign Up</button>
+      <div class="register-link">
+        <p>Already have an Account?</p>
+        <a href="signin.html">Sign In</a>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>
